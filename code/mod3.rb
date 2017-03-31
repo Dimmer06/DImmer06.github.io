@@ -85,7 +85,7 @@ def check_board
     abort
   end
 end
-
+puts "0, 0 is the bottom left, 2,2 is the top right. Sorry arrays work like that and I'm lazy."
 $x = 0
 until $x > 8
   puts_board
